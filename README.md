@@ -42,7 +42,7 @@ s.t
    0< T_{vol,t} <T_{vol,max}
 ```
 
-![Three-node system diagram](setup.png)
+![Three-node system diagram](images/setup.png)
 
 ---
 
@@ -66,7 +66,7 @@ s.t
 
 The model uses independent actor-critic agents for both node-level and trading-level decisions. Each agent updates its own policy and value network based on TD-error and market outcomes.
 
-![Decentralised Agent Algorithm](algorithm.png)
+![Decentralised Agent Algorithm](images/algorithm.png)
 
 ---
 
@@ -80,7 +80,7 @@ The system is evaluated over 8 timesteps. Key metrics include:
 
 Current performance is within 3–5% of a benchmark centralized solution.
 
-![Results](results.png)
+![Results](images/results.png)
 
 ---
 
