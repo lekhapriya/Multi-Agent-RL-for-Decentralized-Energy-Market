@@ -1,0 +1,2 @@
+# Multi-Agent RL for Decentralized Energy Market
+This repository contains an ongoing research implementation of decentralized energy management using Mutli-Agent Advantage Actor-Critic (A2C) reinforcement learning. The framework models a network of interconnected energy nodes, each equipped with battery storage and capable of dynamic pricing and power exchange. The goal is to enable each node to make optimal decisions under solar power fluctuations and demand variability.
